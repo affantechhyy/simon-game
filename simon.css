@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background: url(./game4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;       
+}
+.heading {
+    color: white;
+}
+.btn {
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1.5rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.red {
+background-color: #d95980;
+}
+.yellow {
+    background-color: #f99b45;
+}
+.purple {
+    background-color: #819ff9;
+}
+.aqua {
+    background-color:aqua;
+}
+.flash {
+    background-color: white;
+}
+.userflash {
+    background-color: green;
+}
+.foot {
+    background-color: grey;
+    line-height: 19px;
+}
+.social_media {
+    text-align: center;
+    justify-content: center;
+}
+@media (max-width:611px) {
+    .btn{
+        height: 6.25rem;
+        width: 6.25rem;
+    }
+    
+}
+@media (max-width:1024px ){
+    .btn{
+        height: 7.5rem ;
+        width: 7.5rem;
+    }
+    
+    }
+@media (max-width:280px) {
+    .btn-container{
+        margin-left: 4.5rem;
+    }
+    h1,h2,footer{
+        margin-left: 4.5rem;
+        display: flex;
+    }
+    h3{
+        margin-left: 4.5rem;
+    }
+        
+    }
